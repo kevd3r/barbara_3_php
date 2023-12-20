@@ -1,0 +1,9 @@
+# ignorer le snode_modules
+node_modules
+# on ignore les .txt, les images jpg et les .pdf
+*.txt
+*.jpg
+*.pdf
+
+# on ignore aussi les paramètres vscode 
+.vscode
