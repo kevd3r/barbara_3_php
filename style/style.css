@@ -1,1 +1,102 @@
-/*# sourceMappingURL=style.css.map */
+:root {
+  --bs-emphasis-color: $text-color;
+  --bs-navbar-active-color: $text-color;
+  --bs-navbar-toggler-border-color: $text-color;
+  --primary: $new-color;
+}
+
+body {
+  box-sizing: border-box;
+  background-image: url("../assets/images/sunset_group.jpg");
+  height: 100vh;
+  background-size: cover;
+  margin: 0;
+}
+
+.btn-primary {
+  --bs-btn-color: #fff;
+  --bs-btn-bg: #0d6efd;
+  --bs-btn-border-color: #0d6efd;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #0b5ed7;
+  --bs-btn-hover-border-color: #0a58ca;
+  --bs-btn-focus-shadow-rgb: 49, 132, 253;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #0a58ca;
+  --bs-btn-active-border-color: #0a53be;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: #0d6efd;
+  --bs-btn-disabled-border-color: $text-color;
+}
+
+main {
+  height: 75vh;
+}
+main .container .row {
+  justify-content: center;
+  color: white;
+}
+main .container .row .big-logo {
+  opacity: 0.25;
+  max-width: 75%;
+}
+main .container .row .title-main-page {
+  color: white;
+}
+main .container .row a {
+  background-color: #C6581D;
+  border: 1px solid white;
+  color: white;
+  font-weight: bold;
+}
+main .container .row a:hover {
+  background: white;
+  color: #C6581D;
+  border: none;
+}
+
+.navbar {
+  height: 10vh;
+}
+.navbar .container-fluid {
+  height: 100%;
+}
+.navbar .container-fluid a {
+  height: 100%;
+}
+.navbar .container-fluid .title {
+  height: 100%;
+}
+.navbar .container-fluid .title h1 {
+  font-size: 2rem;
+  color: white;
+  margin: 0;
+}
+.navbar .container-fluid .title h2 {
+  font-size: 1.5rem;
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+.navbar .container-fluid #logo {
+  height: 100%;
+  cursor: pointer;
+}
+.navbar .container-fluid .navbar-toggler {
+  border-color: white;
+}
+
+footer {
+  height: 5vh;
+  border: none;
+}
+footer span {
+  color: #C6581D;
+}
+footer ul {
+  height: 100%;
+}
+footer .bi {
+  color: #C6581D;
+  padding-right: 2rem;
+}/*# sourceMappingURL=style.css.map */
